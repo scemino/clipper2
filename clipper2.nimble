@@ -7,6 +7,8 @@ license       = "boost"
 srcDir        = "src"
 backend       = "cpp"
 
+skipDirs = @["tests"]
+
 # Dependencies
 
 requires "nim >= 1.6.6"
